@@ -1,6 +1,6 @@
 import { createTRPCRouter, protectedProcedure, publicProcedure } from "../trpc";
-import { getUser } from "@interlinked/auth";
-import { db } from "@interlinked/db";
+import { getUser } from "@vintage/auth";
+import { db } from "@vintage/db";
 
 export const authRouter = createTRPCRouter({
   getSession: publicProcedure.query(async () => {

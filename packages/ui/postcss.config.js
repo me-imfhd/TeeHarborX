@@ -1,1 +1,1 @@
-module.exports = require("@interlinked/tailwind-config/postcss");
+module.exports = require("@vintage/tailwind-config/postcss");

@@ -1,4 +1,4 @@
-import { db } from "@interlinked/db";
+import { db } from "@vintage/db";
 import {
   ComputerId,
   NewComputerParams,
@@ -6,7 +6,7 @@ import {
   updateComputerSchema,
   insertComputerParams,
   computerIdSchema,
-} from "@interlinked/db/schema/computers";
+} from "@vintage/db/schema/computers";
 
 export const createComputer = async (computer: NewComputerParams) => {
   const newComputer = insertComputerParams.parse({

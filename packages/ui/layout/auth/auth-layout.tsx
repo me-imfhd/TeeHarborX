@@ -1,5 +1,5 @@
-import { AspectRatio } from "@interlinked/shadcn";
-import { Icons } from "@interlinked/utils/icons";
+import { AspectRatio } from "@vintage/shadcn";
+import { Icons } from "@vintage/utils/icons";
 import { Url } from "next/dist/shared/lib/router/router";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,8 +34,8 @@ export function AuthLayoutImage({
         href="/"
         className="flex absolute left-8 top-6 z-20 items-center text-lg font-bold tracking-tighter"
       >
-        <Icons.chevronsRight className="mr-2 h-6 w-6" aria-hidden="true" />
-        <span>Interlinked</span>
+        {/* <Icons.logo className="mr-2 h-6 w-6" aria-hidden="true" /> */}
+        <span>Vintage</span>
       </Link>
       <div className="absolute bottom-6 left-8 z-20 line-clamp-1 text-base">
         Photo by{" "}

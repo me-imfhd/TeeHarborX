@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
   Shell,
-} from "@interlinked/shadcn";
+} from "@vintage/shadcn";
 import React from "react";
 
 type AuthProps = {

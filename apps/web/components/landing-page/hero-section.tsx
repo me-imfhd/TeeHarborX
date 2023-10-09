@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import { Icons } from "@interlinked/utils/icons";
-import { Button } from "@interlinked/shadcn";
+import { Icons } from "@vintage/utils/icons";
+import { Button } from "@vintage/shadcn";
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-32 bg-background ">
       <div className="container px-4 md:px-6">
@@ -11,39 +11,39 @@ const HeroSection = () => {
           <div className="flex flex-col justify-center space-y-8 text-center">
             <div className="space-y-2">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-                Cutting-Edge. All-in-One. Modern Tech.
+                Create Products. Engage Fans. Make Money.
               </h1>
               <p className="max-w-[600px] text-muted-foreground mx-auto ">
-                Headache-Free Project Building: Embracing the Latest Tech with
-                Ease.
+                Turn your ideas into physical and digital products that your
+                fans will love.
               </p>
             </div>
             <div className="w-full max-w-full space-y-4 mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                   <div className="p-2 bg-background  bg-opacity-50 rounded-full">
-                    <Icons.moon />
+                    <Icons.edit />
                   </div>
                   <h2 className="text-base md:text-xl font-bold text-white">
-                    Mordern Setup
+                    Pick. Design & Sell
                   </h2>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Seamless start with minimal setup for Turborepo powered with
-                    Prisma, TRPC, Next.js, App Router, easy server-side
-                    rendering, and Shadcn UI.
+                    Customize 180+ products, sell digital items, or create
+                    custom goods. We manage fulfillment and the entire fan
+                    experience.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                   <div className="p-2 bg-background  bg-opacity-50 rounded-full">
-                    <Icons.check />
+                    <Icons.send />
                   </div>
                   <h2 className="text-base md:text-xl font-bold text-white">
-                    Type Safety & Auto-completion
+                    Launch a Free Store
                   </h2>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Type safe development, streamlined workflow via TurboRepo,
-                    and TypeScript's and TRPC and Zod for extreme type safety
-                    assurance.
+                    Sell products in your personalized, conversion-optimized
+                    store. Connect a custom domain and be ready to promote in
+                    minutes.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -51,11 +51,12 @@ const HeroSection = () => {
                     <Icons.wallet />
                   </div>
                   <h2 className="text-base md:text-xl font-bold text-white">
-                    Scalable & Secure Web Apps
+                    Sell More Merch
                   </h2>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Building secure, scalable web apps with modern tech, like
-                    TypeScript, Zod, TRPC, ensuring reliability and performance.
+                    Create on Harbor X, connect your social channels and sell
+                    more merch by allowing your fans to shop exactly where they
+                    are.
                   </p>
                 </div>
               </div>
@@ -71,5 +72,3 @@ const HeroSection = () => {
     </section>
   );
 };
-
-export default HeroSection;

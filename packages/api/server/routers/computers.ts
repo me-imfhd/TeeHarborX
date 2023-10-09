@@ -9,7 +9,7 @@ import {
   computerIdSchema,
   insertComputerParams,
   updateComputerParams,
-} from "@interlinked/db/schema/computers";
+} from "@vintage/db/schema/computers";
 export const computersRouter = createTRPCRouter({
   getComputers: publicProcedure.query(async () => {
     return getComputers();

@@ -1,4 +1,4 @@
-import { AuthLayoutImage } from "@interlinked/ui/layout";
+import { AuthLayoutImage } from "@vintage/ui/layout";
 
 export default function AuthLayout({ children }: React.PropsWithChildren) {
   return (

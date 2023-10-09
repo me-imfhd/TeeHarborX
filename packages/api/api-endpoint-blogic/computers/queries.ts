@@ -1,5 +1,5 @@
-import { ComputerId, computerIdSchema } from "@interlinked/db/schema/computers";
-import { db } from "@interlinked/db";
+import { ComputerId, computerIdSchema } from "@vintage/db/schema/computers";
+import { db } from "@vintage/db";
 
 export const getComputers = async () => {
   const c = await db.computer.findMany();

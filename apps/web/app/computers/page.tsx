@@ -1,7 +1,7 @@
 "use client";
 import { ComputerData } from "@/lib/client-side-hooks/ComputerData";
-import { trpc } from "@interlinked/api/trpc/client";
-import { Button } from "@interlinked/shadcn";
+import { trpc } from "@vintage/api/trpc/client";
+import { Button } from "@vintage/shadcn";
 import { Session } from "next-auth";
 import React, { useState } from "react";
 

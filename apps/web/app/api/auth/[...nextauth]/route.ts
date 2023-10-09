@@ -1,5 +1,5 @@
 
-import { authOptions } from "@interlinked/auth";
+import { authOptions } from "@vintage/auth";
 import NextAuth from "next-auth";
 
 const handler = NextAuth(authOptions);

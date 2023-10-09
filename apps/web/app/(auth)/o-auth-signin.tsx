@@ -3,10 +3,10 @@
 import React, { useEffect, useState, useTransition } from "react";
 import { toast } from "sonner";
 import { signIn } from "next-auth/react";
-import { OAuthProviders } from "@interlinked/auth";
+import { OAuthProviders } from "@vintage/auth";
 import { useRouter } from "next/navigation";
-import { Icons } from "@interlinked/utils/icons";
-import { Button } from "@interlinked/shadcn";
+import { Icons } from "@vintage/utils/icons";
+import { Button } from "@vintage/shadcn";
 
 type OAuthProviderProps = {
   name: string;

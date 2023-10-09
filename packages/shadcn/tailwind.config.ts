@@ -4,7 +4,7 @@
  */
 import type { Config } from "tailwindcss";
 
-import baseConfig from "@interlinked/tailwind-config";
+import baseConfig from "@vintage/tailwind-config";
 
 export default {
   content: baseConfig.content,

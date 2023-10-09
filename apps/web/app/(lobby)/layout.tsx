@@ -1,5 +1,5 @@
-import { SiteHeader } from "@interlinked/ui/layout/interlinked";
-import { SiteFooter } from "@interlinked/ui/layout/interlinked";
+import { SiteHeader } from "@vintage/ui/layout/main-app";
+import { SiteFooter } from "@vintage/ui/layout/main-app";
 import React, { PropsWithChildren } from "react";
 import { ProfileHeader } from "@/components/layout/profile-header";
 

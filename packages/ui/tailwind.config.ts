@@ -1,1 +1,1 @@
-module.exports = require("@interlinked/tailwind-config/index");
+module.exports = require("@vintage/tailwind-config/index");

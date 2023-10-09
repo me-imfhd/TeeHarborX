@@ -2,8 +2,8 @@
 
 import * as React from "react";
 // import { menComponents,kidComponents, womenComponents, accessoriesComponent } from "@/config/products";
-import { cn } from "@interlinked/utils/utils";
-import { Icons } from "@interlinked/utils/icons";
+import { cn } from "@vintage/utils/utils";
+import { Icons } from "@vintage/utils/icons";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@interlinked/shadcn/ui";
+} from "@vintage/shadcn/ui";
 
 export function MainNav() {
   return (
@@ -22,8 +22,8 @@ export function MainNav() {
         href="/"
         className="hidden items-center space-x-2 lg:flex"
       >
-        <Icons.chevronsRight className="h-6 w-6" aria-hidden="true" />
-        <span className="hidden font-bold lg:inline-block">Interlinked</span>
+        {/* <Icons.logo className="h-6 w-6" aria-hidden="true" /> */}
+        <span className="hidden font-bold lg:inline-block">Vintage</span>
       </a>
       <NavigationMenu>
         <NavigationMenuList>
@@ -37,19 +37,18 @@ export function MainNav() {
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="/"
                     >
-                      <Icons.logo className="h-6 w-6" />
+                      {/* <Icons.logo className="h-6 w-6" /> */}
                       <div className="mb-2 mt-4 text-lg font-medium">
-                        Interlinked
+                        Vintage
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        Headache-Free Project Building: Embracing the Latest
-                        Tech with Ease.
+                      This platform empowers creators to sell merchandise through social media integration.
                       </p>
                     </a>
                   </NavigationMenuLink>
                 </li>
                 <ListItem href="/docs" title="Docs">
-                  Discover template insights.
+                  Discover how to use vintage best.
                 </ListItem>
                 <ListItem href="/computers" title="Trpc">
                   See TRPC in action.

@@ -1,5 +1,5 @@
 {
-  "name": "@interlinked/tsconfig",
+  "name": "@vintage/tsconfig",
   "private": true,
   "version": "0.0.0",
   "main": "base.json",

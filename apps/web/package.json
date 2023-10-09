@@ -1,5 +1,5 @@
 {
-  "name": "interlinked-mainapp",
+  "name": "vintage-mainapp",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@interlinked/tailwind-config":"workspace:*",
-    "@interlinked/api": "workspace:*",
-    "@interlinked/auth": "workspace:*",
-    "@interlinked/db": "workspace:*",
-    "@interlinked/ui": "workspace:*",
-    "@interlinked/utils":"workspace:*",
-    "@interlinked/shadcn":"workspace:*",
+    "@vintage/tailwind-config":"workspace:*",
+    "@vintage/api": "workspace:*",
+    "@vintage/auth": "workspace:*",
+    "@vintage/db": "workspace:*",
+    "@vintage/ui": "workspace:*",
+    "@vintage/utils":"workspace:*",
+    "@vintage/shadcn":"workspace:*",
     "@trpc/server": "^10.38.5",
     "@types/react": "18.2.25",
     "@types/react-dom": "18.2.10",
@@ -29,8 +29,8 @@
     "zod": "^3.22.3"
   },
   "devDependencies": {
-    "@interlinked/eslint-config": "workspace:*",
-    "@interlinked/tsconfig": "workspace:*",
+    "@vintage/eslint-config": "workspace:*",
+    "@vintage/tsconfig": "workspace:*",
     "eslint": "^8.50.0",
     "prettier": "^3.0.3",
     "tailwindcss": "3.3.2",
@@ -39,9 +39,9 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@interlinked/eslint-config/base",
-      "@interlinked/eslint-config/nextjs",
-      "@interlinked/eslint-config/react"
+      "@vintage/eslint-config/base",
+      "@vintage/eslint-config/nextjs",
+      "@vintage/eslint-config/react"
     ]
   }
 }

@@ -1,5 +1,5 @@
 import { ProfileHeader } from "@/components/layout/profile-header";
-import { SiteFooter, SiteHeader } from "@interlinked/ui/layout";
+import { SiteFooter, SiteHeader } from "@vintage/ui/layout/main-app";
 import React from "react";
 
 

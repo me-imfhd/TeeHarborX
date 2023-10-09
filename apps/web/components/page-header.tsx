@@ -1,6 +1,6 @@
 
 
-import { Balancer, VariantProps, cn, cva } from "@interlinked/utils/utils";
+import { Balancer, VariantProps, cn, cva } from "@vintage/utils/utils";
 
 const headerTitleVariants = cva("font-bold tracking-tight", {
   variants: {

@@ -1,15 +1,59 @@
 import React from "react";
-import { Shell } from "@interlinked/shadcn";
-import { Icons } from "@interlinked/utils/icons";
+import { Shell } from "@vintage/shadcn";
+import { Icons } from "@vintage/utils/icons";
 import Link from "next/link";
-import { cn } from "@interlinked/utils/utils";
-import { buttonVariants } from "@interlinked/shadcn/ui";
-import { Company, mySocials } from "@interlinked/utils";
+import { cn } from "@vintage/utils/utils";
+import { buttonVariants } from "@vintage/shadcn/ui";
+import { Company, SiteConfig, mySocials } from "@vintage/utils";
 
 export const SiteFooter = () => {
   return (
     <footer className="w-full border-t bg-background">
       <Shell as={"div"}>
+        <section
+          id="footer-content"
+          aria-labelledby="footer-content-heading"
+          className="flex flex-col gap-10 lg:flex-row lg:gap-20"
+        >
+          <section
+            id="footer-branding"
+            aria-labelledby="footer-branding-heading"
+          >
+            <Link href={"/"} className="flex items-center space-x-2">
+              <Icons.star className="h-6 w-6" />
+              <span className="font-bold ">Tee Harbor X</span>
+            </Link>
+          </section>
+          <section className="grid flex-1 grid-cols-1 gap-10 xs:grid-cols-2 sm:grid-cols-4">
+            {SiteConfig.footerNav.map((item) => (
+              <div className="space-y-3">
+                <h4 className="text-base font-medium">{item.title}</h4>
+                <ul className="space-y-3">
+                  {item.items.map((link) => (
+                    <li>
+                      <Link
+                        href={link.href}
+                        className="text-sm text-muted-foreground transition-colors hover:text-foreground hover:underline"
+                      >
+                        {link.title}{" "}
+                        <span className="sr-only">{link.title}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+          <section
+            id="newsletter"
+            aria-labelledby="newsletter-heading"
+            className="space-y-3"
+          >
+            <h4 className="text-base font-medium">
+              Subscribe to our newsletter
+            </h4>
+          </section>
+        </section>
         <section
           id="footer-bottom"
           aria-labelledby="footer-bottom-heading"
