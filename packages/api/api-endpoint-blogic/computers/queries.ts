@@ -1,5 +1,5 @@
-import { ComputerId, computerIdSchema } from "@turbocell/db/schema/computers";
-import { db } from "@turbocell/db";
+import { ComputerId, computerIdSchema } from "@interlinked/db/schema/computers";
+import { db } from "@interlinked/db";
 
 export const getComputers = async () => {
   const c = await db.computer.findMany();

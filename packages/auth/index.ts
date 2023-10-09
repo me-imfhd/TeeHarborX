@@ -8,7 +8,7 @@ import {
   DefaultUser,
 } from "next-auth";
 
-import { CompleteUser, db } from "@turbocell/db";
+import { CompleteUser, db } from "@interlinked/db";
 
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import { GetServerSidePropsContext } from "next";

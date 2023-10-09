@@ -1,5 +1,5 @@
 {
-  "name": "@turbocell/db",
+  "name": "@interlinked/db",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -21,13 +21,13 @@
     "eslint": "^8.50.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "@turbocell/eslint-config": "workspace:*",
-    "@turbocell/tsconfig": "workspace:*"
+    "@interlinked/eslint-config": "workspace:*",
+    "@interlinked/tsconfig": "workspace:*"
   },
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@turbocell/eslint-config"
+      "@interlinked/eslint-config"
     ]
   }
 }

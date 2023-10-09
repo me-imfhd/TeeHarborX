@@ -1,4 +1,4 @@
-export * from "./turbocell"
+export * from "./interlinked"
 export * from "./auth/auth-layout"
 export * from "./auth/sign-in-up"
 export * from "./auth/sign-in-form"

@@ -1,4 +1,4 @@
-import { Auth, SignInForm, SignInFooter } from "@turbocell/ui/layout";
+import { Auth, SignInForm, SignInFooter } from "@interlinked/ui/layout";
 import OAuthSignIn from "../o-auth-signin";
 export default function Page() {
   return (

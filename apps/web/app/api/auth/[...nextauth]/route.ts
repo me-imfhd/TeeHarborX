@@ -1,5 +1,5 @@
 
-import { authOptions } from "@turbocell/auth";
+import { authOptions } from "@interlinked/auth";
 import NextAuth from "next-auth";
 
 const handler = NextAuth(authOptions);

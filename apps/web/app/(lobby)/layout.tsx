@@ -1,5 +1,5 @@
-import { SiteHeader } from "@turbocell/ui/layout/turbocell";
-import { SiteFooter } from "@turbocell/ui/layout/turbocell";
+import { SiteHeader } from "@interlinked/ui/layout/interlinked";
+import { SiteFooter } from "@interlinked/ui/layout/interlinked";
 import React, { PropsWithChildren } from "react";
 import { ProfileHeader } from "@/components/layout/profile-header";
 

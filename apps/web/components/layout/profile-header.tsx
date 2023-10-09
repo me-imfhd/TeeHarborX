@@ -1,9 +1,9 @@
-import { authOptions } from "@turbocell/auth";
+import { authOptions } from "@interlinked/auth";
 import { getServerSession } from "next-auth";
 import React from "react";
-import { UserProfileDropdown } from "@turbocell/ui/layout/turbocell";
+import { UserProfileDropdown } from "@interlinked/ui/layout/interlinked";
 import Link from "next/link";
-import { buttonVariants } from "@turbocell/shadcn/ui";
+import { buttonVariants } from "@interlinked/shadcn/ui";
 
 export const ProfileHeader = async () => {
   const data = await getServerSession(authOptions);

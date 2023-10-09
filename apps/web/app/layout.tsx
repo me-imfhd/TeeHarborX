@@ -1,15 +1,15 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Toaster } from "@turbocell/shadcn";
+import { Toaster } from "@interlinked/shadcn";
 import { fontSans, fontMono } from "@/lib/fonts";
-import { ThemeProvider } from "@turbocell/ui/components/ThemeProvider";
-import { cn } from "@turbocell/utils/utils";
-import TailwindResposivenessIndicator from "@turbocell/ui/components/TailwindResposivenessIndicator";
+import { ThemeProvider } from "@interlinked/ui/components/ThemeProvider";
+import { cn } from "@interlinked/utils/utils";
+import TailwindResposivenessIndicator from "@interlinked/ui/components/TailwindResposivenessIndicator";
 import { PropsWithChildren } from "react";
-import TrpcProvider from "@turbocell/api/trpc/Provider"
+import TrpcProvider from "@interlinked/api/trpc/Provider"
 
 export const metadata: Metadata = {
-  title: "Turbo Cell",
+  title: "Interlinked",
   description:
     "",
   themeColor: [

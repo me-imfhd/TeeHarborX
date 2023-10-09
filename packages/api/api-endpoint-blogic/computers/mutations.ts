@@ -1,4 +1,4 @@
-import { db } from "@turbocell/db";
+import { db } from "@interlinked/db";
 import {
   ComputerId,
   NewComputerParams,
@@ -6,7 +6,7 @@ import {
   updateComputerSchema,
   insertComputerParams,
   computerIdSchema,
-} from "@turbocell/db/schema/computers";
+} from "@interlinked/db/schema/computers";
 
 export const createComputer = async (computer: NewComputerParams) => {
   const newComputer = insertComputerParams.parse({

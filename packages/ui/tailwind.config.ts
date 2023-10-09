@@ -1,1 +1,1 @@
-module.exports = require("@turbocell/tailwind-config/index");
+module.exports = require("@interlinked/tailwind-config/index");
